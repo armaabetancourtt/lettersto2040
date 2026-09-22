@@ -1,17 +1,15 @@
-<div align="center">
+# LETTERS TO 2040 — What Should Remain Human?
 
-# LETTERS TO 2040
+[English](README.md) · [Español](README.es.md)
 
-### A participatory digital experience about what we want to remain human.
+> **WHAT SHOULD REMAIN HUMAN?**  
+> Letters to 2040 is a bilingual interactive experience about technology, choice and the parts of life we may decide **not to automate**.
 
-<a href="./README.md"><kbd>🇺🇸 English</kbd></a>
-<a href="./README.es.md"><kbd>🇲🇽 Español</kbd></a>
-
-**Status:** Concept / pre-production
-
-</div>
-
----
+![Experience](https://img.shields.io/badge/Experience-Interactive_Web-111111)
+![Storytelling](https://img.shields.io/badge/Creative_Direction-Storytelling-6E56CF)
+![Bilingual](https://img.shields.io/badge/Language-English_%7C_Espa%C3%B1ol-2F81F7)
+![Accessibility](https://img.shields.io/badge/Accessibility-Reduced_Motion_%7C_Responsive-238636)
+![Privacy](https://img.shields.io/badge/Privacy-Local_Drafts_Only-111111)
 
 ## The question
 
@@ -27,7 +25,7 @@ The project will explore questions around technology, creativity, attention, rel
 
 ## The experience
 
-The public experience is planned around a simple journey:
+The current demo is built around a simple journey:
 
 1. **Enter** — encounter one central question.
 2. **Listen** — move through real perspectives from different people.
@@ -131,7 +129,7 @@ These documents are intentionally public so the project can show how the final o
 
 ## Planned public artifact
 
-The final project is expected to include:
+The current implementation already includes an interactive bilingual web experience, and the broader project is expected to grow into:
 
 - an interactive web experience
 - participant letters
