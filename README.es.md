@@ -1,17 +1,15 @@
-<div align="center">
+# LETTERS TO 2040 — ¿Qué debería seguir siendo humano?
 
-# LETTERS TO 2040
+[English](README.md) · [Español](README.es.md)
 
-### Una experiencia digital participativa sobre lo que queremos que siga siendo humano.
+> **¿QUÉ DEBERÍA SEGUIR SIENDO HUMANO?**  
+> Letters to 2040 es una experiencia interactiva bilingüe sobre tecnología, decisiones y las partes de la vida que quizá decidamos **no automatizar**.
 
-<a href="./README.md"><kbd>🇺🇸 English</kbd></a>
-<a href="./README.es.md"><kbd>🇲🇽 Español</kbd></a>
-
-**Estado:** Concepto / preproducción
-
-</div>
-
----
+![Experiencia](https://img.shields.io/badge/Experiencia-Web_Interactiva-111111)
+![Storytelling](https://img.shields.io/badge/Direcci%C3%B3n_Creativa-Storytelling-6E56CF)
+![Bilingüe](https://img.shields.io/badge/Idioma-English_%7C_Espa%C3%B1ol-2F81F7)
+![Accesibilidad](https://img.shields.io/badge/Accesibilidad-Reduced_Motion_%7C_Responsive-238636)
+![Privacidad](https://img.shields.io/badge/Privacidad-Borradores_Locales-111111)
 
 ## La pregunta
 
@@ -27,7 +25,7 @@ El proyecto explorará preguntas alrededor de tecnología, creatividad, atenció
 
 ## La experiencia
 
-La experiencia pública se plantea como un recorrido simple:
+El demo actual está construido alrededor de un recorrido simple:
 
 1. **Entrar** — encontrarte con una pregunta central.
 2. **Escuchar** — recorrer perspectivas reales de distintas personas.
@@ -131,7 +129,7 @@ Estos documentos son públicos intencionalmente para mostrar cómo se llegó al 
 
 ## Artefacto público planeado
 
-El proyecto final debería incluir:
+La implementación actual ya incluye una experiencia web interactiva y bilingüe, y el proyecto completo debería crecer hacia:
 
 - una experiencia web interactiva
 - cartas de participantes
