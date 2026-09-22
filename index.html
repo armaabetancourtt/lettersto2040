@@ -4,21 +4,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Letters to 2040 — a participatory digital experience about what we want to remain human." />
-  <meta name="theme-color" content="#090909" />
+  <meta name="theme-color" content="#08090d" />
   <title>Letters to 2040</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
 
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
   <header class="nav" aria-label="Primary">
     <a class="brand" href="#top" aria-label="Letters to 2040 home">
-      <span>LETTERS</span><span class="brand-slash">/</span><span>2040</span>
+      <span class="brand-mark">L</span>
+      <span>LETTERS / 2040</span>
     </a>
     <div class="nav-actions">
+      <a class="nav-link" href="#process" data-i18n="processNav">Process</a>
       <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
         <span class="lang-option is-active" data-lang-option="en">EN</span>
         <span aria-hidden="true">/</span>
@@ -32,24 +39,38 @@
 
   <main id="main">
     <section class="hero scene" id="top" data-scene="0">
-      <div class="hero-noise" aria-hidden="true"></div>
-      <div class="orbit orbit-a" aria-hidden="true"></div>
-      <div class="orbit orbit-b" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-shape hero-shape-a" aria-hidden="true"></div>
+      <div class="hero-shape hero-shape-b" aria-hidden="true"></div>
+      <div class="hero-icon hero-icon-star" aria-hidden="true">✦</div>
+      <div class="hero-icon hero-icon-loop" aria-hidden="true">∞</div>
 
-      <div class="eyebrow">
-        <span class="dot"></span>
-        <span data-i18n="eyebrow">A participatory digital experience</span>
-      </div>
+      <div class="hero-content">
+        <div class="hero-kicker">
+          <span class="live-dot"></span>
+          <span data-i18n="eyebrow">A participatory digital experience</span>
+          <span class="kicker-code">/ 2040</span>
+        </div>
 
-      <div class="hero-copy">
-        <p class="chapter-number">2040</p>
+        <p class="chapter-number">01 / QUESTION</p>
+
         <h1>
           <span data-i18n="heroLine1">What should</span>
           <em data-i18n="heroLine2">remain human?</em>
         </h1>
-        <p class="hero-intro" data-i18n="heroIntro">
-          Technology keeps learning what we can do. This experience asks a different question: what do we still want to do ourselves?
-        </p>
+
+        <div class="hero-bottom">
+          <p class="hero-intro" data-i18n="heroIntro">
+            Technology keeps learning what we can do. This experience asks a different question: what do we still want to do ourselves?
+          </p>
+
+          <div class="hero-values" aria-label="Themes">
+            <span><i>✺</i><b data-i18n="valueQuestion">question</b></span>
+            <span><i>↗</i><b data-i18n="valueLead">lead</b></span>
+            <span><i>◌</i><b data-i18n="valueListen">listen</b></span>
+            <span><i>⟲</i><b data-i18n="valueIterate">iterate</b></span>
+          </div>
+        </div>
       </div>
 
       <a class="scroll-cue" href="#chapter-one">
@@ -58,45 +79,74 @@
       </a>
     </section>
 
-    <section class="chapter scene" id="chapter-one" data-scene="1">
+    <section class="ticker" aria-label="Project themes">
+      <div class="ticker-track">
+        <span>CRITICAL THINKING</span><i>✦</i>
+        <span>CREATIVITY</span><i>✦</i>
+        <span>EMPATHY</span><i>✦</i>
+        <span>ADAPTABILITY</span><i>✦</i>
+        <span>STORYTELLING</span><i>✦</i>
+        <span>LEADERSHIP</span><i>✦</i>
+        <span>CRITICAL THINKING</span><i>✦</i>
+        <span>CREATIVITY</span><i>✦</i>
+        <span>EMPATHY</span><i>✦</i>
+        <span>ADAPTABILITY</span><i>✦</i>
+        <span>STORYTELLING</span><i>✦</i>
+        <span>LEADERSHIP</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="chapter scene promise" id="chapter-one" data-scene="1">
       <div class="chapter-meta">
-        <span>01</span>
+        <span>02</span>
         <span data-i18n="chapter1Label">THE PROMISE</span>
       </div>
+
       <div class="chapter-body">
         <p class="statement" data-i18n="chapter1A">We built machines to save time.</p>
         <p class="statement muted" data-i18n="chapter1B">To remove repetition. To reduce friction. To make difficult things easier.</p>
         <p class="statement accent" data-i18n="chapter1C">That part worked.</p>
       </div>
+
+      <div class="promise-stamps" aria-hidden="true">
+        <span class="stamp stamp-blue">FASTER</span>
+        <span class="stamp stamp-yellow">SMARTER</span>
+        <span class="stamp stamp-coral">EASIER</span>
+      </div>
     </section>
 
     <section class="chapter split scene" id="chapter-two" data-scene="2">
-      <div class="chapter-meta">
-        <span>02</span>
+      <div class="chapter-meta dark-meta">
+        <span>03</span>
         <span data-i18n="chapter2Label">THE SHIFT</span>
       </div>
+
       <div class="split-grid">
         <div class="split-copy">
           <h2 data-i18n="chapter2Title">Then the machines started touching the things we thought were ours.</h2>
         </div>
+
         <div class="word-stream" aria-label="Examples">
-          <span data-i18n="wordCreate">create</span>
-          <span data-i18n="wordDecide">decide</span>
-          <span data-i18n="wordRemember">remember</span>
-          <span data-i18n="wordCare">care</span>
-          <span data-i18n="wordChoose">choose</span>
-          <span data-i18n="wordImagine">imagine</span>
+          <span><i>✎</i><b data-i18n="wordCreate">create</b></span>
+          <span><i>⌁</i><b data-i18n="wordDecide">decide</b></span>
+          <span><i>◉</i><b data-i18n="wordRemember">remember</b></span>
+          <span><i>♥</i><b data-i18n="wordCare">care</b></span>
+          <span><i>↯</i><b data-i18n="wordChoose">choose</b></span>
+          <span><i>✦</i><b data-i18n="wordImagine">imagine</b></span>
         </div>
       </div>
     </section>
 
     <section class="boundary scene" id="boundary" data-scene="3">
+      <div class="boundary-aura" aria-hidden="true"></div>
+
       <div class="chapter-meta">
-        <span>03</span>
+        <span>04</span>
         <span data-i18n="chapter3Label">YOUR LINE</span>
       </div>
 
       <div class="boundary-header">
+        <div class="section-icon" aria-hidden="true">↔</div>
         <h2 data-i18n="boundaryTitle">Where would you draw the line?</h2>
         <p data-i18n="boundaryIntro">There is no score. Choose instinctively. Your choices stay in this browser.</p>
       </div>
@@ -133,6 +183,7 @@
     </section>
 
     <section class="interlude scene" data-scene="4">
+      <div class="interlude-orbit" aria-hidden="true"></div>
       <p class="interlude-small" data-i18n="interludeSmall">Maybe the question is not</p>
       <p class="interlude-large">
         <span data-i18n="interludeA">what technology</span>
@@ -144,36 +195,128 @@
         <em data-i18n="interludeE">we choose</em>
         <span data-i18n="interludeF">to keep.</span>
       </p>
+      <div class="interlude-symbol" aria-hidden="true">?</div>
     </section>
 
     <section class="questions scene" id="questions" data-scene="5">
       <div class="chapter-meta">
-        <span>04</span>
+        <span>05</span>
         <span data-i18n="chapter4Label">THREE QUESTIONS</span>
       </div>
 
       <div class="question-list">
-        <article class="question-card">
+        <article class="question-card q-blue">
           <span class="question-index">01</span>
+          <span class="question-icon" aria-hidden="true">⚙</span>
           <p data-i18n="q1">What would you happily automate tomorrow?</p>
         </article>
-        <article class="question-card">
+        <article class="question-card q-coral">
           <span class="question-index">02</span>
+          <span class="question-icon" aria-hidden="true">♥</span>
           <p data-i18n="q2">What would you never delegate to a machine?</p>
         </article>
-        <article class="question-card">
+        <article class="question-card q-lime">
           <span class="question-index">03</span>
+          <span class="question-icon" aria-hidden="true">↗</span>
           <p data-i18n="q3">What do you hope a child in 2040 still learns from another human?</p>
         </article>
       </div>
     </section>
 
-    <section class="letter scene" id="letter" data-scene="6">
+    <section class="process scene" id="process" data-scene="6">
+      <div class="process-header">
+        <div class="chapter-meta">
+          <span>06</span>
+          <span data-i18n="processLabel">THE WORK BEHIND THE WORK</span>
+        </div>
+        <div>
+          <p class="process-kicker" data-i18n="processKicker">SOFT SKILLS SHOULD LEAVE EVIDENCE.</p>
+          <h2 data-i18n="processTitle">Leadership is not a label. It is what happens between a question and a shipped idea.</h2>
+          <p data-i18n="processIntro">This project documents the thinking behind the experience: how the vision is framed, how research is planned, how decisions are made, how ambiguity becomes direction and how the work changes when evidence says it should.</p>
+        </div>
+      </div>
+
+      <div class="process-grid">
+        <a class="process-card pc-blue" href="./docs/vision.md">
+          <div class="process-card-top">
+            <span class="process-icon">?</span>
+            <span>01</span>
+          </div>
+          <h3 data-i18n="processQuestion">Question the problem</h3>
+          <p data-i18n="processQuestionDesc">Define the question before designing the answer. The public vision makes assumptions and boundaries explicit.</p>
+          <span class="process-link" data-i18n="openVision">Open vision ↗</span>
+        </a>
+
+        <a class="process-card pc-yellow" href="./docs/research-plan.md">
+          <div class="process-card-top">
+            <span class="process-icon">◌</span>
+            <span>02</span>
+          </div>
+          <h3 data-i18n="processListen">Listen before concluding</h3>
+          <p data-i18n="processListenDesc">The research plan prioritizes real conversations, contradictory viewpoints, consent and careful synthesis.</p>
+          <span class="process-link" data-i18n="openResearch">Open research plan ↗</span>
+        </a>
+
+        <a class="process-card pc-coral" href="./docs/decision-log.md">
+          <div class="process-card-top">
+            <span class="process-icon">⌁</span>
+            <span>03</span>
+          </div>
+          <h3 data-i18n="processDecide">Make trade-offs visible</h3>
+          <p data-i18n="processDecideDesc">Important decisions record context, options, evidence, the choice made and what was knowingly given up.</p>
+          <span class="process-link" data-i18n="openDecisions">Open decision log ↗</span>
+        </a>
+
+        <a class="process-card pc-lime" href="./docs/creative-brief.md">
+          <div class="process-card-top">
+            <span class="process-icon">✦</span>
+            <span>04</span>
+          </div>
+          <h3 data-i18n="processCreate">Turn ambiguity into direction</h3>
+          <p data-i18n="processCreateDesc">The creative brief translates an abstract idea into tone, emotional arc, visual principles and constraints collaborators can use.</p>
+          <span class="process-link" data-i18n="openBrief">Open creative brief ↗</span>
+        </a>
+
+        <a class="process-card pc-purple" href="https://github.com/armaabetancourtt/lettersto2040/issues/6" target="_blank" rel="noreferrer">
+          <div class="process-card-top">
+            <span class="process-icon">⟲</span>
+            <span>05</span>
+          </div>
+          <h3 data-i18n="processIterate">Test, learn, change</h3>
+          <p data-i18n="processIterateDesc">The prototype is treated as a hypothesis. Testing focuses on comprehension, drop-off, remembered ideas and whether the experience earns its ending.</p>
+          <span class="process-link" data-i18n="openPrototype">Open prototype workstream ↗</span>
+        </a>
+
+        <a class="process-card pc-white" href="https://github.com/armaabetancourtt/lettersto2040/issues" target="_blank" rel="noreferrer">
+          <div class="process-card-top">
+            <span class="process-icon">↗</span>
+            <span>06</span>
+          </div>
+          <h3 data-i18n="processLead">Lead the work, not the spotlight</h3>
+          <p data-i18n="processLeadDesc">Scoped workstreams make ownership, collaboration and progress visible without inventing a team or outcomes that do not exist yet.</p>
+          <span class="process-link" data-i18n="openWork">Open workstreams ↗</span>
+        </a>
+      </div>
+
+      <div class="evidence-strip">
+        <span data-i18n="evidenceLabel">CURRENT EVIDENCE</span>
+        <div class="evidence-items">
+          <span><i>✓</i><b data-i18n="evidenceVision">vision defined</b></span>
+          <span><i>✓</i><b data-i18n="evidenceBrief">creative brief published</b></span>
+          <span><i>✓</i><b data-i18n="evidenceResearch">research plan published</b></span>
+          <span><i>✓</i><b data-i18n="evidenceDecision">decision log started</b></span>
+          <span><i>✓</i><b data-i18n="evidencePrototype">interactive prototype shipped</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter scene" id="letter" data-scene="7">
       <div class="letter-intro">
         <div class="chapter-meta">
-          <span>05</span>
+          <span>07</span>
           <span data-i18n="chapter5Label">YOUR LETTER</span>
         </div>
+        <div class="letter-spark" aria-hidden="true">✦</div>
         <h2 data-i18n="letterTitle">Write something worth carrying forward.</h2>
         <p data-i18n="letterIntro">This preview does not publish your response. Your draft is saved only on this device until a consent-based public archive exists.</p>
       </div>
@@ -189,6 +332,7 @@
           data-i18n-placeholder="letterPlaceholder"
           placeholder="make time for people even when everything else becomes instant."
         ></textarea>
+
         <div class="form-meta">
           <span id="charCount">0 / 600</span>
           <span class="local-note">
@@ -213,6 +357,7 @@
           <p class="letter-rendered" id="letterRendered"></p>
           <p class="letter-signoff" data-i18n="fromPresent">— from the present</p>
         </div>
+
         <div class="output-actions">
           <button class="secondary-button" id="copyLetter" type="button" data-i18n="copy">Copy</button>
           <button class="secondary-button" id="downloadLetter" type="button" data-i18n="download">Download .txt</button>
@@ -221,11 +366,15 @@
       </div>
     </section>
 
-    <section class="closing scene" data-scene="7">
+    <section class="closing scene" data-scene="8">
+      <div class="closing-sticker closing-sticker-one" aria-hidden="true">BUILD<br>ON PURPOSE</div>
+      <div class="closing-sticker closing-sticker-two" aria-hidden="true">2040</div>
+
       <div class="closing-copy">
         <p data-i18n="closingA">The future will be built either way.</p>
         <h2 data-i18n="closingB">The question is whether we build it on purpose.</h2>
       </div>
+
       <div class="closing-mark">
         <span>LETTERS</span>
         <span class="closing-year">2040</span>
