@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Letters to 2040 — a participatory digital experience about what we want to remain human." />
+  <meta name="theme-color" content="#090909" />
+  <title>Letters to 2040</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="nav" aria-label="Primary">
+    <a class="brand" href="#top" aria-label="Letters to 2040 home">
+      <span>LETTERS</span><span class="brand-slash">/</span><span>2040</span>
+    </a>
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+        <span class="lang-option is-active" data-lang-option="en">EN</span>
+        <span aria-hidden="true">/</span>
+        <span class="lang-option" data-lang-option="es">ES</span>
+      </button>
+      <a class="nav-cta" href="#letter" data-i18n="writeNav">Write a letter</a>
+    </div>
+  </header>
+
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <main id="main">
+    <section class="hero scene" id="top" data-scene="0">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="orbit orbit-a" aria-hidden="true"></div>
+      <div class="orbit orbit-b" aria-hidden="true"></div>
+
+      <div class="eyebrow">
+        <span class="dot"></span>
+        <span data-i18n="eyebrow">A participatory digital experience</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="chapter-number">2040</p>
+        <h1>
+          <span data-i18n="heroLine1">What should</span>
+          <em data-i18n="heroLine2">remain human?</em>
+        </h1>
+        <p class="hero-intro" data-i18n="heroIntro">
+          Technology keeps learning what we can do. This experience asks a different question: what do we still want to do ourselves?
+        </p>
+      </div>
+
+      <a class="scroll-cue" href="#chapter-one">
+        <span data-i18n="begin">Begin</span>
+        <span class="scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <section class="chapter scene" id="chapter-one" data-scene="1">
+      <div class="chapter-meta">
+        <span>01</span>
+        <span data-i18n="chapter1Label">THE PROMISE</span>
+      </div>
+      <div class="chapter-body">
+        <p class="statement" data-i18n="chapter1A">We built machines to save time.</p>
+        <p class="statement muted" data-i18n="chapter1B">To remove repetition. To reduce friction. To make difficult things easier.</p>
+        <p class="statement accent" data-i18n="chapter1C">That part worked.</p>
+      </div>
+    </section>
+
+    <section class="chapter split scene" id="chapter-two" data-scene="2">
+      <div class="chapter-meta">
+        <span>02</span>
+        <span data-i18n="chapter2Label">THE SHIFT</span>
+      </div>
+      <div class="split-grid">
+        <div class="split-copy">
+          <h2 data-i18n="chapter2Title">Then the machines started touching the things we thought were ours.</h2>
+        </div>
+        <div class="word-stream" aria-label="Examples">
+          <span data-i18n="wordCreate">create</span>
+          <span data-i18n="wordDecide">decide</span>
+          <span data-i18n="wordRemember">remember</span>
+          <span data-i18n="wordCare">care</span>
+          <span data-i18n="wordChoose">choose</span>
+          <span data-i18n="wordImagine">imagine</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="boundary scene" id="boundary" data-scene="3">
+      <div class="chapter-meta">
+        <span>03</span>
+        <span data-i18n="chapter3Label">YOUR LINE</span>
+      </div>
+
+      <div class="boundary-header">
+        <h2 data-i18n="boundaryTitle">Where would you draw the line?</h2>
+        <p data-i18n="boundaryIntro">There is no score. Choose instinctively. Your choices stay in this browser.</p>
+      </div>
+
+      <div class="boundary-game" id="boundaryGame">
+        <div class="choice-head choice-auto">
+          <span data-i18n="automate">I'D AUTOMATE IT</span>
+        </div>
+        <div class="choice-head choice-human">
+          <span data-i18n="keepHuman">I'D KEEP IT HUMAN</span>
+        </div>
+
+        <div class="prompt-stack" id="promptStack" aria-live="polite"></div>
+
+        <div class="choice-actions">
+          <button class="choice-button choice-button-auto" id="automateBtn" type="button">
+            <span aria-hidden="true">←</span>
+            <span data-i18n="automateShort">Automate</span>
+          </button>
+          <button class="choice-button choice-button-human" id="humanBtn" type="button">
+            <span data-i18n="humanShort">Keep human</span>
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="boundary-result" id="boundaryResult" hidden>
+        <div>
+          <span class="result-kicker" data-i18n="yourBoundary">YOUR BOUNDARY</span>
+          <h3 id="boundarySummary"></h3>
+        </div>
+        <button class="text-button" id="restartBoundary" type="button" data-i18n="restart">Try again</button>
+      </div>
+    </section>
+
+    <section class="interlude scene" data-scene="4">
+      <p class="interlude-small" data-i18n="interludeSmall">Maybe the question is not</p>
+      <p class="interlude-large">
+        <span data-i18n="interludeA">what technology</span>
+        <em data-i18n="interludeB">can</em>
+        <span data-i18n="interludeC">do.</span>
+      </p>
+      <p class="interlude-large second">
+        <span data-i18n="interludeD">Maybe it is what</span>
+        <em data-i18n="interludeE">we choose</em>
+        <span data-i18n="interludeF">to keep.</span>
+      </p>
+    </section>
+
+    <section class="questions scene" id="questions" data-scene="5">
+      <div class="chapter-meta">
+        <span>04</span>
+        <span data-i18n="chapter4Label">THREE QUESTIONS</span>
+      </div>
+
+      <div class="question-list">
+        <article class="question-card">
+          <span class="question-index">01</span>
+          <p data-i18n="q1">What would you happily automate tomorrow?</p>
+        </article>
+        <article class="question-card">
+          <span class="question-index">02</span>
+          <p data-i18n="q2">What would you never delegate to a machine?</p>
+        </article>
+        <article class="question-card">
+          <span class="question-index">03</span>
+          <p data-i18n="q3">What do you hope a child in 2040 still learns from another human?</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="letter scene" id="letter" data-scene="6">
+      <div class="letter-intro">
+        <div class="chapter-meta">
+          <span>05</span>
+          <span data-i18n="chapter5Label">YOUR LETTER</span>
+        </div>
+        <h2 data-i18n="letterTitle">Write something worth carrying forward.</h2>
+        <p data-i18n="letterIntro">This preview does not publish your response. Your draft is saved only on this device until a consent-based public archive exists.</p>
+      </div>
+
+      <form class="letter-form" id="letterForm">
+        <label for="letterText" data-i18n="letterPrompt">Dear 2040, I hope we still...</label>
+        <textarea
+          id="letterText"
+          name="letter"
+          rows="7"
+          maxlength="600"
+          autocomplete="off"
+          data-i18n-placeholder="letterPlaceholder"
+          placeholder="make time for people even when everything else becomes instant."
+        ></textarea>
+        <div class="form-meta">
+          <span id="charCount">0 / 600</span>
+          <span class="local-note">
+            <span class="privacy-dot"></span>
+            <span data-i18n="localOnly">Saved locally</span>
+          </span>
+        </div>
+
+        <div class="letter-actions">
+          <button class="primary-button" type="submit" data-i18n="previewLetter">Preview my letter</button>
+          <button class="secondary-button" id="clearLetter" type="button" data-i18n="clear">Clear</button>
+        </div>
+      </form>
+
+      <div class="letter-output" id="letterOutput" hidden>
+        <div class="letter-paper">
+          <div class="letter-paper-top">
+            <span>LETTERS TO 2040</span>
+            <span id="letterLanguageMark">EN</span>
+          </div>
+          <p class="letter-salutation" data-i18n="dear2040">Dear 2040,</p>
+          <p class="letter-rendered" id="letterRendered"></p>
+          <p class="letter-signoff" data-i18n="fromPresent">— from the present</p>
+        </div>
+        <div class="output-actions">
+          <button class="secondary-button" id="copyLetter" type="button" data-i18n="copy">Copy</button>
+          <button class="secondary-button" id="downloadLetter" type="button" data-i18n="download">Download .txt</button>
+          <button class="text-button" id="editLetter" type="button" data-i18n="edit">Edit</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing scene" data-scene="7">
+      <div class="closing-copy">
+        <p data-i18n="closingA">The future will be built either way.</p>
+        <h2 data-i18n="closingB">The question is whether we build it on purpose.</h2>
+      </div>
+      <div class="closing-mark">
+        <span>LETTERS</span>
+        <span class="closing-year">2040</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Letters to 2040</p>
+    <p data-i18n="footerLine">An evolving project about technology, choice and what we keep human.</p>
+    <a href="https://github.com/armaabetancourtt/lettersto2040" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
