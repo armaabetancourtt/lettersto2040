@@ -1,15 +1,29 @@
-# LETTERS TO 2040 — What Should Remain Human?
+<p align="center"><img src="brand/letters-to-2040-banner.svg" alt="Letters to 2040 — official white wordmark and golden paper plane on cinematic ocean blue" width="100%" /></p>
 
-[English](README.md) · [Español](README.es.md)
+<p align="center"><strong>A letter to the future. A question for the present.</strong><br/><sub>WHAT SHOULD REMAIN HUMAN?</sub></p>
 
-> **WHAT SHOULD REMAIN HUMAN?**  
-> Letters to 2040 is a bilingual interactive experience about technology, choice and the parts of life we may decide **not to automate**.
+<p align="center"><a href="README.md">English</a> · <a href="README.es.md">Español</a></p>
 
-![Experience](https://img.shields.io/badge/Experience-Interactive_Web-111111)
-![Storytelling](https://img.shields.io/badge/Creative_Direction-Storytelling-6E56CF)
-![Bilingual](https://img.shields.io/badge/Language-English_%7C_Espa%C3%B1ol-2F81F7)
-![Accessibility](https://img.shields.io/badge/Accessibility-Reduced_Motion_%7C_Responsive-238636)
-![Privacy](https://img.shields.io/badge/Privacy-Local_Drafts_Only-111111)
+<p align="center"><img alt="Experience: Interactive web" src="https://img.shields.io/badge/Experience-Interactive_Web-0A2D54?style=flat-square&labelColor=091C36&logoColor=white"/>&nbsp;<img alt="Bilingual: EN / ES" src="https://img.shields.io/badge/Language-EN_%2F_ES-218B9C?style=flat-square&labelColor=091C36"/>&nbsp;<img alt="Local drafts" src="https://img.shields.io/badge/Privacy-Local_Drafts-E9C17C?style=flat-square&labelColor=091C36"/></p>
+
+---
+
+## Official brand identity
+
+Letters to 2040 now uses its approved **cinematic blue-and-gold visual identity**: editorial white lettering, a delicate flight path and a golden paper plane against an ocean-blue / midnight-navy gradient. The logo and the interactive experience share this language.
+
+| Token | Value | Role |
+| --- | --- | --- |
+| Midnight | `#091C36` | Dark canvas |
+| Ocean blue | `#0A2D54` | Primary field and surfaces |
+| Atmospheric teal | `#218B9C` | Gradient highlight |
+| Flight gold | `#E9C17C` | Paper plane, key accents |
+| Paper white | `#FFFFFF` | Official lettering |
+| Letter paper | `#F5EFE6` | Personal response surface |
+
+[Official logo](brand/letters-to-2040-wordmark.svg) · [Banner](brand/letters-to-2040-banner.svg) · [Paper-plane icon](brand/letters-to-2040-plane.svg) · [Brand guide](brand/README.md)
+
+The vectors adapt the supplied official design without substituting generic typesetting. Motion remains optional; the project does not claim to have published local drafts or collected participant submissions.
 
 ## The question
 
