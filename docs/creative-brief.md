@@ -1,3 +1,5 @@
+<p align="center"><img src="../brand/letters-to-2040-banner.svg" alt="Letters to 2040 official editorial wordmark with golden paper plane" width="680" /></p>
+
 # Creative Brief — Letters to 2040
 
 ## Single-minded idea
@@ -36,6 +38,12 @@
 - visual complexity without narrative purpose
 - fake statistics
 - AI-generated participant quotes
+
+## Approved brand identity
+
+The official supplied artwork defines the project identity: white editorial serif lettering, an elegant curved golden paper-plane trail, and a cinematic gradient from luminous teal / ocean blue to deep midnight navy. [Canonical vectors and usage rules](../brand/README.md) provide the shared palette.
+
+This direction is applied to both README mastheads and the live interactive prototype. In the small navigation area, use the compact plane mark alongside a legible project name rather than shrinking the full composition until it is unreadable. The letter preview retains a warm paper surface to distinguish human expression from the dark digital canvas.
 
 ## Visual direction
 

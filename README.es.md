@@ -1,15 +1,29 @@
-# LETTERS TO 2040 — ¿Qué debería seguir siendo humano?
+<p align="center"><img src="brand/letters-to-2040-banner.svg" alt="Letters to 2040 — official white wordmark and golden paper plane on cinematic ocean blue" width="100%" /></p>
 
-[English](README.md) · [Español](README.es.md)
+<p align="center"><strong>Una carta al futuro. Una pregunta para el presente.</strong><br/><sub>¿QUÉ DEBERÍA SEGUIR SIENDO HUMANO?</sub></p>
 
-> **¿QUÉ DEBERÍA SEGUIR SIENDO HUMANO?**  
-> Letters to 2040 es una experiencia interactiva bilingüe sobre tecnología, decisiones y las partes de la vida que quizá decidamos **no automatizar**.
+<p align="center"><a href="README.md">English</a> · <a href="README.es.md">Español</a></p>
 
-![Experiencia](https://img.shields.io/badge/Experiencia-Web_Interactiva-111111)
-![Storytelling](https://img.shields.io/badge/Direcci%C3%B3n_Creativa-Storytelling-6E56CF)
-![Bilingüe](https://img.shields.io/badge/Idioma-English_%7C_Espa%C3%B1ol-2F81F7)
-![Accesibilidad](https://img.shields.io/badge/Accesibilidad-Reduced_Motion_%7C_Responsive-238636)
-![Privacidad](https://img.shields.io/badge/Privacidad-Borradores_Locales-111111)
+<p align="center"><img alt="Experience: Interactive web" src="https://img.shields.io/badge/Experience-Interactive_Web-0A2D54?style=flat-square&labelColor=091C36&logoColor=white"/>&nbsp;<img alt="Bilingual: EN / ES" src="https://img.shields.io/badge/Language-EN_%2F_ES-218B9C?style=flat-square&labelColor=091C36"/>&nbsp;<img alt="Local drafts" src="https://img.shields.io/badge/Privacy-Local_Drafts-E9C17C?style=flat-square&labelColor=091C36"/></p>
+
+---
+
+## Identidad oficial
+
+Letters to 2040 adopta su identidad oficial **cinematográfica azul y dorada**: lettering editorial blanco, una delicada estela de vuelo y un avión de papel dorado sobre un degradado de azul océano a azul noche. El README y la experiencia interactiva comparten el mismo sistema.
+
+| Token | Valor | Uso |
+| --- | --- | --- |
+| Azul noche | `#091C36` | Fondo oscuro |
+| Azul océano | `#0A2D54` | Lienzo y superficies |
+| Verde azulado | `#218B9C` | Luz del degradado |
+| Oro de vuelo | `#E9C17C` | Avión y acentos |
+| Blanco papel | `#FFFFFF` | Letras oficiales |
+| Papel carta | `#F5EFE6` | Área de respuesta |
+
+[Logo oficial](brand/letters-to-2040-wordmark.svg) · [Banner](brand/letters-to-2040-banner.svg) · [Avión de papel](brand/letters-to-2040-plane.svg) · [Guía de identidad](brand/README.md)
+
+Los vectores adaptan el diseño proporcionado, sin sustituir su lettering por tipografía genérica. El movimiento es opcional y la experiencia no publica borradores locales ni afirma haber recopilado cartas de participantes.
 
 ## La pregunta
 

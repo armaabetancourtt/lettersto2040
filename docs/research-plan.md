@@ -1,3 +1,5 @@
+<p align="center"><img src="../brand/letters-to-2040-banner.svg" alt="Letters to 2040 official editorial wordmark with golden paper plane" width="680" /></p>
+
 # Research Plan — Letters to 2040
 
 ## Research objective
